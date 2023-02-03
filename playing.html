@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="jokenpo.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <audio src="renai circulation.mp3" autoplay loop></audio>
+    <h1 id="titulo"><img src="IMG/suavez.png"></h1>
+    <div id="principal">
+        <div id="placar">
+            <div id="player">
+                <h2>Player</h2>
+                <span id="playerpoints">0</span>
+                <ul id="playerchoose">
+                    <li><a href="#" id="playerchoose1" onclick="jogar(1)"><img src="IMG/mãopedra.png" alt=""></a></li>
+                    <li><a href="#" id="playerchoose2" onclick="jogar(2)"><img src="IMG/mãopapel.png" alt=""></a></li>
+                    <li><a href="#" id="playerchoose3" onclick="jogar(3)"><img src="IMG/mãotesoura.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div id="versus">VS</div>
+            <div id="pc">
+                <h2>Computer</h2>
+                <span id="pcpoints">0</span>
+                <ul id="pcchoose">
+                    <li><a href="#" id="pcchoose1"><img src="IMG/mãopedra.png" alt=""></a></li>
+                    <li><a href="#" id="pcchoose2"><img src="IMG/mãopapel.png" alt=""></a></li>
+                    <li><a href="#" id="pcchoose3"><img src="IMG/mãotesoura.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mensagem">&nbsp;</div>
+    </div>
+
+
+</body>
+
+</html>

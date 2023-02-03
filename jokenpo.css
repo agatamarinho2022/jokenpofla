@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: font;
+    color: white;
+}
+@font-face{
+    font-family: font;
+    src: url(Pixelfy.ttf);
+}
+body {
+    background-color: #70D6FF;
+    background-image: url(IMG/back.gif);
+}
+
+main {
+    text-align: center;
+}
+
+P {
+    padding-top: 1em;
+    color: rgb(138, 135, 86);
+}
+
+div img {
+    width: 6em;
+}
+
+.title {
+    width: 50em;
+    padding-bottom: 10em;
+}
+
+.startbutton {
+    width: 30em;
+
+}
+
+.startbutton:hover {
+    width: 40em;
+}
+
+/* Jogada*/
+#titulo{
+    text-align: center;
+}
+#titulo img{
+    width: 20em;
+}
+#principal{
+    margin: 10em;
+}
+#placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player, #pc{
+    position: relative;
+    flex-grow: 1;
+    border: 8px solid white;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+}
+#player{
+    background-color: rgb(254, 247, 36);
+}
+#pc{
+    background-color: #FF9770 ;
+}
+#playerpoints, #pcpoints{
+    font-size: 2em;
+}
+#versus{
+    width: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+ul#playerchoose, ul#pcchoose{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#playerchoose li, ul#pcchoose li{
+    display: inline;
+}
+ul#playerchoose li a, ul#pcchoose li a{
+    opacity: .2;
+
+}
+ul#playerchoose li a img:hover, ul#playerchoose li a.selected,ul#pcchoose li a.selected{
+    opacity: 1;
+    transform: scale(110%);
+}
+#mensagem{
+    background-color: #FF70A6;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px 0;
+    font-size: 32px;
+    text-align: center;
+}
